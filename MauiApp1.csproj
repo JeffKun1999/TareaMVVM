@@ -70,4 +70,10 @@
 	  <None Include="C:\Users\cisco\Downloads\Ejemploclase\MauiApp1\.editorconfig" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="Views\LibrosPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

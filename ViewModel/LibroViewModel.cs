@@ -18,6 +18,7 @@ namespace MauiApp1.ViewModel
                 OnPropertyChanged(nameof(Libro));
             }
         }
+        public List<Libro> Libros { get; set; }
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyname)
         {
